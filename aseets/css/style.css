@@ -203,6 +203,8 @@ button {
    HEADER
 ========================================= */
 
+
+x
 .site-header {
     position: sticky;
     top: 0;
@@ -1139,4 +1141,12 @@ button {
         transition-duration: 0.01ms !important;
         animation-duration: 0.01ms !important;
     }
+}
+
+#mainheader{
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: white;
 }
